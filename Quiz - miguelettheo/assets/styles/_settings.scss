@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "inter";
+    src: url(../fonts/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "merri";
+    src: url(../fonts/Merriweather-Light.ttf);
+}
+
+$font1: inter, sans-serif;
+$font2: merri, serif;
+$black1:rgb(17,17,17);
+$white:rgb(243,243,243);
+
+li{
+    list-style: none;
+    padding: 15px;
+    color: $white;
+    font-family: $font2;
+}
+body{
+    position: relative;
+    background: black;
+    height: 100vh;
+}
+a, a:visited{
+    color: $white;
+    text-decoration: dashed;
+}
+button{
+    background: none;
+    border: none;
+    color: $white;
+    font-family:$font1;
+    font-weight: 700;
+    font-size: 3.2rem;
+
+  
+}
